@@ -114,28 +114,28 @@ export function CommandMenu({ open, setOpen }: CommandMenuProps) {
       label: "GitHub",
       description: "View GitHub profile",
       shortcut: "G",
-      action: () => window.open("https://github.com/MonisMS", "_blank")
+      action: () => window.open("https://github.com/PAVANT009", "_blank")
     },
     {
       icon: <Linkedin size={18} />,
       label: "LinkedIn",
       description: "Connect on LinkedIn",
       shortcut: "L",
-      action: () => window.open("https://www.linkedin.com/in/syed-monis-sarwar-sms47/", "_blank")
+      action: () => window.open("https://www.linkedin.com/in/pavan-teja-kumar-65261035b/", "_blank")
     },
-    {
-      icon: <Twitter size={18} />,
-      label: "Twitter",
-      description: "Follow on Twitter",
-      shortcut: "T",
-      action: () => window.open("https://x.com/SMSarwar47", "_blank")
-    },
+    // {
+    //   icon: <Twitter size={18} />,
+    //   label: "Twitter",
+    //   description: "Follow on Twitter",
+    //   shortcut: "T",
+    //   action: () => window.open("https://x.com/SMSarwar47", "_blank")
+    // },
     {
       icon: <Mail size={18} />,
       label: "Send Email",
-      description: "monissms16@gmail.com",
+      description: "tejap9316@gmail.com",
       shortcut: "E",
-      action: () => window.open("mailto:monissms16@gmail.com")
+      action: () => window.open("mailto:tejap9316@gmail.com")
     },
   ];
 

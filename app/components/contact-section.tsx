@@ -11,18 +11,18 @@ const socials = [
   {
     name: "GitHub",
     icon: <Github size={18} />,
-    href: "https://github.com/MonisMS",
+    href: "https://github.com/PAVANT009",
   },
   {
     name: "LinkedIn",
     icon: <Linkedin size={18} />,
-    href: "https://www.linkedin.com/in/syed-monis-sarwar-sms47/",
+    href: "https://www.linkedin.com/in/pavan-teja-kumar-65261035b/",
   },
-  {
-    name: "Twitter",
-    icon: <Twitter size={18} />,
-    href: "https://x.com/SMSarwar47",
-  },
+  // {
+  //   name: "Twitter",
+  //   icon: <Twitter size={18} />,
+  //   href: "https://x.com/SMSarwar47",
+  // },
 ];
 
 type FormErrors = {
@@ -107,7 +107,7 @@ export function ContactSection() {
   };
 
   const copyEmail = async () => {
-    await navigator.clipboard.writeText("monissms16@gmail.com");
+    await navigator.clipboard.writeText("tejap9316@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -246,10 +246,10 @@ export function ContactSection() {
               </div>
               <div className="flex items-center gap-2">
                 <a
-                  href="mailto:monissms16@gmail.com"
+                  href="mailto:tejap9316@gmail.com"
                   className="flex-1 truncate text-sm text-text-secondary hover:text-accent transition-colors"
                 >
-                  monissms16@gmail.com
+                  tejap9316@gmail.com
                 </a>
                 <button
                   onClick={copyEmail}
@@ -263,7 +263,7 @@ export function ContactSection() {
 
             {/* Book a Meeting */}
             <a
-              href="https://cal.com/monis-sarwar-vvbnfn"
+              href="https://cal.com/pavan-teja-lxgie1"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-xl border border-border bg-bg-card p-5 hover:border-accent/50 transition-all"

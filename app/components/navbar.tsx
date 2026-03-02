@@ -57,7 +57,7 @@ export function Navbar() {
             onClick={(e) => handleLinkClick(e, "home", "/#home")}
             className="hidden md:block text-lg font-semibold text-text-primary tracking-tight"
           >
-            MS
+            SP
           </Link>
 
           {/* Mobile: Logo pill - Opens command menu */}
@@ -65,9 +65,9 @@ export function Navbar() {
             onClick={() => setCommandOpen(true)}
             className="md:hidden flex items-center rounded-[20px] border border-border bg-bg-secondary/50 backdrop-blur-xl px-5 py-2.5 cursor-pointer"
           >
-            <span className="text-base font-bold text-text-primary tracking-tight">MS</span>
+            <span className="text-base font-bold text-text-primary tracking-tight">SP</span>
             <span className="mx-5 w-px h-5 bg-border" />
-            <span className="text-base text-text-muted">monis</span>
+            <span className="text-base text-text-muted">Pavan</span>
           </button>
 
           {/* Center: Nav Pill - Hidden on mobile */}

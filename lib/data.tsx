@@ -16,7 +16,7 @@ import {
   SiGraphql,
   SiDrizzle,
   SiBun,
-  SiFramer
+  SiFramer,
 } from "react-icons/si";
 import { RiStackLine } from "react-icons/ri";
 import { TbPolaroid } from "react-icons/tb";
@@ -51,41 +51,68 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
 
 export const PROJECTS_DATA: Project[] = [
   {
-    title: "AskAI",
+    title: "TldrAI",
     description:
-      "Your personal AI assistant that answers questions, processes meetings, and summarizes content in real-time. Upload recordings or documents, and let AI extract key insights and action items for you.",
-    tech: ["Next.js", "TypeScript", "OpenAI", "PostgreSQL"],
-    liveUrl: "https://askai-nu.vercel.app/",
-    githubUrl: "https://github.com/MonisMS/askai",
-    image: "/ask-ai.png"
+    "An AI-powered productivity and knowledge assistant that helps users upload documents, extract insights, and interact with content using generative AI. Features authentication, drag-and-drop interfaces, PDF parsing, and a modern dashboard built for fast, intelligent workflows.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Google Generative AI",
+      "Better Auth",
+      "Tailwind CSS",
+      "ShadCN UI",
+      "Zod"
+    ],
+    liveUrl: "https://tldrai-opal.vercel.app/",
+    githubUrl: "https://github.com/PAVANT009/tldrai",
+    image: "/tldr.png"
   },
   {
-    title: "FolderMage",
+    title: "SpendFlow",
     description:
-      "A desktop app that transforms your messy Downloads and cluttered folders into organized bliss. Features smart auto-sorting, undo functionality, background job queues, and a clean dashboard to keep everything in order.",
-    tech: ["TypeScript", "Redis", "Docker"],
-    githubUrl: "https://github.com/MonisMS/folder-organizer",
-    isBuilding: true,
-    image: "/folder-mage.png"
+    "A smart personal finance management platform that helps users track expenses, manage budgets, and gain insights into their spending habits. Monitor transactions, categorize expenses, visualize financial data, and make better financial decisions with a clean and intuitive dashboard.",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind" , "Prisma"],
+    liveUrl: "https://spend-flow-six.vercel.app/",
+    githubUrl: "https://github.com/PAVANT009/SpendFlow",
+    image: "/spendflow.png"
   },
   {
-    title: "PharmaGuard",
+    title: "ConvoAI",
     description:
-      "A pharmacogenomic risk prediction system that analyzes patient genetic data (VCF files) against CPIC guidelines. Returns deterministic drug safety assessments with AI-generated clinical explanations. Built for the RIFT 2026 hackathon.",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    liveUrl: "https://photonx-rift-2026.vercel.app/",
-    githubUrl: "https://github.com/MonisMS/photonx-rift-2026",
-    image:"/pharmaguard.png"
-  },
-  {
-    title: "Beats Generator",
-    description:
-      "An AI-powered music generator that creates unique tunes using the Gemini API. Just describe the vibe you want, and it generates beats for you. Features a vinyl-inspired UI with full playback controls.",
-    tech: ["React", "TypeScript", "Vite", "Tailwind"],
-    liveUrl: "https://tunes-generator.vercel.app/",
-    githubUrl: "https://github.com/MonisMS/Tunes-generator-",
-    image: "/tunes-generator-image (2).png"
-  },
+        "A real-time AI conversational platform that combines chat, video, and intelligent agents into one seamless experience. Users can interact with AI in live sessions, manage conversations, and leverage background workflows powered by event-driven architecture. Built with scalable serverless infrastructure, realtime streaming, authentication, and modern SaaS-grade tooling.",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind","Drizzle", "ShadCN UI", "Zod"],
+    liveUrl: "https://convo-ai-one.vercel.app/",
+    githubUrl: "https://github.com/PAVANT009/ConvoAi",
+    image: "/convoai.png"
+  }
+  // {
+  //   title: "FolderMage",
+  //   description:
+  //     "A desktop app that transforms your messy Downloads and cluttered folders into organized bliss. Features smart auto-sorting, undo functionality, background job queues, and a clean dashboard to keep everything in order.",
+  //   tech: ["TypeScript", "Redis", "Docker"],
+  //   githubUrl: "https://github.com/MonisMS/folder-organizer",
+  //   isBuilding: true,
+  //   image: "/folder-mage.png"
+  // },
+  // {
+  //   title: "PharmaGuard",
+  //   description:
+  //     "A pharmacogenomic risk prediction system that analyzes patient genetic data (VCF files) against CPIC guidelines. Returns deterministic drug safety assessments with AI-generated clinical explanations. Built for the RIFT 2026 hackathon.",
+  //   tech: ["Next.js", "TypeScript", "Tailwind"],
+  //   liveUrl: "https://photonx-rift-2026.vercel.app/",
+  //   githubUrl: "https://github.com/MonisMS/photonx-rift-2026",
+  //   image:"/pharmaguard.png"
+  // },
+  // {
+  //   title: "Beats Generator",
+  //   description:
+  //     "An AI-powered music generator that creates unique tunes using the Gemini API. Just describe the vibe you want, and it generates beats for you. Features a vinyl-inspired UI with full playback controls.",
+  //   tech: ["React", "TypeScript", "Vite", "Tailwind"],
+  //   liveUrl: "https://tunes-generator.vercel.app/",
+  //   githubUrl: "https://github.com/MonisMS/Tunes-generator-",
+  //   image: "/tunes-generator-image (2).png"
+  // },
 ];
 
 export const SKILLS_DATA: Skill[] = [
@@ -109,4 +136,5 @@ export const SKILLS_DATA: Skill[] = [
   { name: "Vercel", icon: <SiVercel /> },
   { name: "Framer Motion", icon: <SiFramer /> },
   { name: "Polar", icon: <TbPolaroid /> },
+  // {name: "Inngest", icon}
 ];

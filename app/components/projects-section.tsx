@@ -11,7 +11,15 @@ import {
   SiVite,
   SiRedis,
   SiDocker,
-  SiPostgresql
+  SiPostgresql,
+  SiPrisma,
+  SiDrizzle,
+  SiMongodb,
+  SiMongoose,
+  SiGooglegemini,
+  SiShadcnui,
+  SiZod,
+  SiAuth0
 } from "react-icons/si";
 import { PROJECTS_DATA } from "@/lib/data";
 import { Project } from "@/lib/types";
@@ -24,11 +32,21 @@ const TechIcon = ({ name }: { name: string }) => {
     case "TypeScript": return <SiTypescript className={iconClass} />;
     case "OpenAI": return <SiOpenai className={iconClass} />;
     case "React": return <SiReact className={iconClass} />;
+    case "React 19": return <SiReact className={iconClass} />;
     case "Tailwind": return <SiTailwindcss className={iconClass} />;
+    case "Tailwind CSS": return <SiTailwindcss className={iconClass} />;
     case "Vite": return <SiVite className={iconClass} />;
     case "Redis": return <SiRedis className={iconClass} />;
     case "Docker": return <SiDocker className={iconClass} />;
     case "PostgreSQL": return <SiPostgresql className={iconClass} />;
+    case "MongoDB": return <SiMongodb className={iconClass} />;
+    case "Mongoose": return <SiMongoose className={iconClass} />;
+    case "Google Generative AI": return <SiGooglegemini className={iconClass} />;
+    case "Better Auth": return <SiAuth0 className={iconClass} />;
+    case "ShadCN UI": return <SiShadcnui className={iconClass} />;
+    case "Zod": return <SiZod className={iconClass} />;
+    case "Prisma": return <SiPrisma className={iconClass} />;
+    case "Drizzle": return <SiDrizzle className={iconClass} />;
     default: return null;
   }
 };
@@ -158,7 +176,7 @@ export function ProjectsSection() {
 
           {/* Coming Soon Card */}
           <a
-            href="https://github.com/MonisMS"
+            href="https://github.com/PAVANT009"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative flex flex-col justify-center items-center text-center rounded-xl border border-dashed border-border bg-bg-card/50 p-8 hover:border-accent/50 hover:bg-bg-card transition-all"

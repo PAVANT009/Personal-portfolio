@@ -31,12 +31,13 @@ export async function sendEmail(
         message: "Email service is not configured. Please contact the administrator.",
       }
     }
+    
 
     const senderName = validatedData.name?.trim() || "Anonymous"
 
     const { error } = await resend.emails.send({
       from: "Portfolio Contact Form <onboarding@resend.dev>",
-      to: "monissms16@gmail.com",
+      to: "tejap9316@gmail.com",
       replyTo: validatedData.email,
       subject: `New message from ${senderName}`,
       html: `
