@@ -3,7 +3,7 @@ import { ImageResponse } from 'next/og'
  
 export const runtime = 'edge'
  
-export const alt = 'Syed Monis Sarwar - Portfolio'
+export const alt = 'Pavan - Portfolio'
 export const size = {
   width: 1200,
   height: 630,
@@ -64,7 +64,7 @@ export default async function Image() {
                 lineHeight: 1.1,
               }}
             >
-              Syed Monis Sarwar
+              Pavan teja
             </h1>
             <p
               style={{

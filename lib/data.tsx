@@ -134,7 +134,7 @@ export const SKILLS_DATA: Skill[] = [
   { name: "GitHub", icon: <SiGithub /> },
   { name: "Docker", icon: <SiDocker /> },
   { name: "Vercel", icon: <SiVercel /> },
-  { name: "Framer Motion", icon: <SiFramer /> },
-  { name: "Polar", icon: <TbPolaroid /> },
+  // { name: "Framer Motion", icon: <SiFramer /> },
+  // { name: "Polar", icon: <TbPolaroid /> },
   // {name: "Inngest", icon}
 ];
