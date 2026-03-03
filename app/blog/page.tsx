@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Suspense } from "react";
@@ -10,8 +10,19 @@ import type { BlogPostMetadata } from "../components/blog-card";
 import { ArrowRight, Sparkles, ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog - Syed Monis Sarwar",
-  description: "Thoughts, learnings, and tutorials about web development, blockchain, and technology.",
+  title: "Blog",
+  description:
+    "Thoughts, learnings, and tutorials by Pavan Teja on web development, back-end engineering, and technology.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    title: "Blog | Pavan Teja",
+    description:
+      "Thoughts, learnings, and tutorials by Pavan Teja on web development, back-end engineering, and technology.",
+    url: "https://thispavan.dev/blog",
+    type: "website",
+  },
 };
 
 interface BlogPageProps {
